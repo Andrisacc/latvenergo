@@ -16,12 +16,10 @@ In order to run this container you'll need docker installed.
 
 ### Building the Docker Image
 
-```bash
 docker build -t flask-sample-app .
 
 ### Container Parameters to run
 
 Run the docker container with the following command:
 
-```bash
 docker run -d -p 4000:5000 flask-sample-app
