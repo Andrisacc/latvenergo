@@ -14,14 +14,12 @@ In order to run this container you'll need docker installed.
 * [OS X](https://docs.docker.com/docker-for-mac/install/)
 * [Linux](https://docs.docker.com/engine/install/)
 
-### Usage
-
-#### Build Docker image
+### Building the Docker Image
 
 ```bash
 docker build -t flask-sample-app .
 
-#### Container Parameters to run
+### Container Parameters to run
 
 Run the docker container with the following command:
 
