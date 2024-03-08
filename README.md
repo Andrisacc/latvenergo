@@ -23,3 +23,7 @@ docker build -t flask-sample-app .
 Run the docker container with the following command:
 
 docker run -d -p 4000:5000 flask-sample-app
+
+### Environment Variables
+
+- `NAME` - A name to print "Hello" to, defaults to "World"
